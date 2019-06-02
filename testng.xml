@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tech Mahindra" thread-count="5" parallel="tests">
+  <test name="Chrome Test">
+  <parameter name="browsername" value="chrome"/>
+  	<classes>
+  		<class name = "com.techm.selenium.home.TC001"/>
+  		<!-- <class name = "com.techm.selenium.home.TC002"/> -->
+  		<!-- <class name = "com.techm.selenium.home.TC002"/> 
+  		<class name = "com.techm.selenium.products.TC003"/>
+  		<class name = "com.techm.selenium.products.TC004"/>  -->
+  	</classes>
+  </test> <!-- Test -->
+ <!--  <test name="Firefox Test">
+  <parameter name="browsername" value="firefox"/>
+  	<classes>
+  		<class name = "com.techm.selenium.home.TC001"/>
+  		<class name = "com.techm.selenium.home.TC002"/>
+  	</classes>
+  </test> Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3859" started-at="2019-05-30T04:26:29Z" finished-at="2019-05-30T04:26:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3859" started-at="2019-05-30T04:26:29Z" finished-at="2019-05-30T04:26:32Z">
+      <class name="com.techm.selenium.home.RemoteDriver">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.techm.selenium.home.RemoteDriver@be83e4]" name="test" duration-ms="3838" started-at="2019-05-30T09:56:29Z" finished-at="2019-05-30T09:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.techm.selenium.home.RemoteDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

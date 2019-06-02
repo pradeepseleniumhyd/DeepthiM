@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tech Mahindra]" parallel="tests">
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.techm.selenium.home.TC001">
+        <methods>
+          <include name="TC001"/>
+          <include name="report"/>
+          <include name="closeBrowser"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- com.techm.selenium.home.TC001 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Tech Mahindra] -->
